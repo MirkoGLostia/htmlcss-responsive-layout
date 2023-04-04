@@ -22,4 +22,22 @@
         width: 200px;
         height: 200px;
      }
+
+
+
+     /* section 6: let's */
+     #sct-6-cont > h5 {
+        font-size: 50px;
+     }
+
+     #sct-6-cont > h3 {
+        font-size: 100px;
+     }
+
+     #sct-6-cont > p {
+         padding-left: 60px;
+         padding-right: 60px;
+         line-height: 35px;
+         font-size: 18px;
+     }
 }
