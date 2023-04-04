@@ -1,4 +1,6 @@
-/* general */
+/*********
+ *general*
+ *********/
 
 *{
     box-sizing: border-box;
@@ -23,9 +25,9 @@
 
 
 
-/* 
-HEADER
-*/
+/********
+ *HEADER*
+ ********/
 
 #header-menu {
     background-color: rgb(0,132,253);
@@ -50,7 +52,6 @@ HEADER
 
 #big-nav {
     display: none;
-    /* padding-top: 10px; */
     font-size: 18px;
 }
 
@@ -76,9 +77,88 @@ HEADER
 
 
 
-/* 
-FOOTER
- */
+
+/******
+ *MAIN*
+ ******/
+
+
+
+
+
+
+ /* section planning */
+
+ #planning-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px 50px;
+ }
+
+ #planning-container > div > img {
+    max-width: 100%;
+    padding-bottom: 40px;
+ }
+
+ #planning-container > div > h2 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 40px;
+ }
+
+ #planning-container > div > p {
+    color: white;
+    line-height: 25px;
+    padding-bottom: 20px;
+ }
+ 
+
+ #planning-card {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+ #planning-container > #planning-card > h2 {
+    color: black;
+    padding-bottom: 20px;
+}
+
+#planning-container > #planning-card > p {
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 35px;
+ }
+
+ #planning-card > button{
+    margin: 20px auto;
+ }
+
+ #planning-card > button > a {
+    background-color: rgb(151,146,228);
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********
+ *FOOTER*
+ ********/
 
  #footer-cont {
     background-color: rgb(51,51,51);
@@ -106,10 +186,15 @@ FOOTER
 
 
 
-
-/* debug */
+/*******
+ *debug*
+ *******/
 
 
 #space {
-    margin-top: 1000px;
+    margin-top: 100px;
+}
+
+.planning-bk {
+    background-color: violet;
 }
