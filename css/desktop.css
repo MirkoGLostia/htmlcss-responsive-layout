@@ -1,0 +1,15 @@
+@media screen and (min-width:769px) {
+    #header-menu > div {
+        max-width: 1200px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    #small-nav {
+        display: none;
+    }
+    
+    #big-nav {
+        display: block;
+    }
+}
