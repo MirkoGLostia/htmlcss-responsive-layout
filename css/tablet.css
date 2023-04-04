@@ -1,0 +1,6 @@
+@media screen and (min-width:481px) {
+    /* main: section 2 planning */
+    #planning-container > div > #planning-title {
+        font-size: 60px;
+    }
+}
