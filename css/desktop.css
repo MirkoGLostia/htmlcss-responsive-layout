@@ -33,4 +33,13 @@
     #planning-card > img {
         width: 50%;
     }
+
+    /* section 4: features */
+    .feature-card {
+        width: 30%;
+    }
+
+
+
+
 }
