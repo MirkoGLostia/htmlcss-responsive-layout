@@ -225,6 +225,73 @@
 
 
 
+ /* section 6: let's start */
+
+ #sct-6-cont {
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+ }
+
+ #sct-6-cont > h6 {
+    color: rgb(203,201,241);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+ }
+
+ #sct-6-cont > h5 {
+    color: white;
+    font-size: 30px;
+ }
+
+ #sct-6-cont > h3 {
+    color: rgb(236,185,117);
+    font-size: 60px;
+    padding: 40px 0;
+ }
+
+ #sct-6-cont > p {
+    color: white;
+    padding-bottom: 20px;
+ }
+
+ #sct-6-cont > button {
+    display: block;
+     margin: 40px auto;
+
+ }
+
+ #sct-6-cont > button > a {
+    background-color: white;
+    color: rgb(171,167,233);
+    padding: 20px 60px;
+    border-radius: 70px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5px;
+ }
+
+ #sct-6-cont > div {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+ }
+
+ #sct-6-cont > div a {
+    color: white;
+    text-decoration: underline;
+ }
+ 
+ #sct-6-cont > div > span > i {
+    font-size: 5px;
+    vertical-align: middle;
+ }
+
+
+
+
 
 
 
