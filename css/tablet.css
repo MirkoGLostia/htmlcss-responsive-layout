@@ -7,6 +7,8 @@
 
 
 
+
+
     /* testimonial cards */
     .testimonial-card {
         display: flex;
@@ -23,6 +25,29 @@
         height: 200px;
      }
 
+
+
+
+
+
+     /* section 4: Features */
+     #feature-cont > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+     }
+
+     .feature-card {
+        margin: 0;
+        width: 40%;
+     }
+
+
+
+
+
+     
 
 
      /* section 6: let's */
