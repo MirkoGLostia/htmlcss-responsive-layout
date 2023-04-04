@@ -149,6 +149,59 @@
 
 
 
+ /* section testimonials */
+
+ #testimonial-cont {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 50px 30px;
+    text-align: center;
+ }
+
+ #testimonial-cont > h6 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 30px;
+ }
+
+ #testimonial-cont > h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: rgb(151,146,228);
+    line-height: 60px;
+ }
+
+ #testimonial-cont > p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 50px;
+ }
+
+
+
+
+
+
+
+
+
+  /* testimonial cards */
+
+ .testimonial-card {
+
+ }
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
