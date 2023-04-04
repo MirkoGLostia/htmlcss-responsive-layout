@@ -1,4 +1,6 @@
 @media screen and (min-width:769px) {
+
+    /* header */
     #header-menu > div {
         max-width: 1200px;
         margin: 0px auto;
@@ -11,5 +13,24 @@
     
     #big-nav {
         display: block;
+    }
+
+    /* main: section 2 planning */
+    #planning-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #planning-container > div {
+        width: 45%;
+    }
+
+    #planning-card {
+        margin-top: 150px;
+    }
+
+    #planning-card > img {
+        width: 50%;
     }
 }
