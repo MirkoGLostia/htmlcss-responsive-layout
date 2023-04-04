@@ -189,7 +189,32 @@
   /* testimonial cards */
 
  .testimonial-card {
+    background-color: rgb(151,146,228);
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+ }
 
+ .testimonial-card > div > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+
+ .testimonial-card > div > p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px auto;
+ }
+
+ .testimonial-card > div > h4 {
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 10px auto;
  }
  
 
