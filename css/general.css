@@ -5,4 +5,59 @@
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    border: none;
 }
+
+
+
+
+/* 
+HEADER
+*/
+
+#header-menu {
+    background-color: rgb(0,132,253);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 80px;
+}
+
+#header-menu > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#small-nav {
+    color: white;
+    font-size: 30px;
+}
+
+#big-nav {
+    display: none;
+    /* padding-top: 10px; */
+    font-size: 18px;
+}
+
+#big-nav > a {
+    color: white;
+    padding-right: 20px;
+}
+
+#big-nav > button {
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: inherit;
+}
+
+#big-nav > button > a {
+    color: black;
+}
+
+
+
+
+/* debug */
