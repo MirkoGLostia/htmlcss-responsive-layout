@@ -47,7 +47,31 @@
 
 
 
-     
+
+     /* section 5: About us */
+     #about-cont {
+        display: flex;
+        justify-content: space-around;
+     }
+
+     #about-general {
+        width: 50%;
+     }
+
+     #about-profile {
+        width: 35%;
+     }
+
+     #about-profile > div > span {
+        bottom: 120px;
+        left: 150px;
+     }
+
+
+
+
+
+
 
 
      /* section 6: let's */
