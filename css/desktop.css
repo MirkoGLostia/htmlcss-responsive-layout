@@ -39,6 +39,21 @@
         width: 30%;
     }
 
+    /* section 5: About us */
+    #about-cont > div > h2 {
+        font-size: 70px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+     #about-general {
+        width: 60%;
+     }
+
+     #about-profile {
+        width: 25%;
+     }
+
 
 
 
