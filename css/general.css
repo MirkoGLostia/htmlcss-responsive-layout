@@ -87,7 +87,7 @@
 
 
 
- /* section planning */
+ /* section 2: planning */
 
  #planning-container {
     max-width: 1200px;
@@ -149,7 +149,7 @@
 
 
 
- /* section testimonials */
+ /* section 3: testimonials */
 
  #testimonial-cont {
     max-width: 1200px;
@@ -177,12 +177,6 @@
     line-height: 35px;
     margin-bottom: 50px;
  }
-
-
-
-
-
-
 
 
 
@@ -216,7 +210,79 @@
     padding-top: 10px;
     margin: 10px auto;
  }
+
+
+
+
+
+
+
+
+
  
+
+ /* section 4: Features */
+
+#feature-cont {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
+#feature-cont > h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.feature-card {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.feature-card > h2 {
+    color: rgb(151,146,228);
+    font-size: 50px;
+    padding: 20px;
+}
+
+.feature-card > h3 {
+    color: rgb(151,146,228);
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.feature-card > p {
+    color: rgb(129,129,129);
+    line-height: 25px;
+    padding: 20px;
+}
+
+.feature-card > button {
+    margin: 20px;
+}
+
+.feature-card > button > a {
+    background-color: rgb(151,146,228);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 25px;
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ 
+
+
+
+
 
 
 
@@ -331,15 +397,4 @@
 
 
 
-/*******
- *debug*
- *******/
 
-
-#space {
-    margin-top: 100px;
-}
-
-.planning-bk {
-    background-color: violet;
-}
