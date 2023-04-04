@@ -3,4 +3,23 @@
     #planning-container > div > #planning-title {
         font-size: 60px;
     }
+
+
+
+
+    /* testimonial cards */
+    .testimonial-card {
+        display: flex;
+        text-align: left;
+        border-radius: 50px;
+    }
+    
+    .testimonial-card > div {
+        padding-right: 30px;
+    }
+
+    .testimonial-card > div > img {
+        width: 200px;
+        height: 200px;
+     }
 }
