@@ -114,13 +114,14 @@ section:nth-child(even) {
 #jumbo-cont > div button {
     margin-top: 40px;
     margin-bottom: 20px;
+    background-color: rgb(36,149,253);
+    border-radius: 20px;
+    padding: 10px 40px;
 }
 
 #jumbo-cont > div button > a {
-    background-color: rgb(36,149,253);
     color: white;
-    padding: 10px 40px;
-    border-radius: 20px;
+    padding: inherit;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 5px;
@@ -203,12 +204,13 @@ section:nth-child(even) {
 
  #planning-card > button{
     margin: 20px auto;
+    background-color: rgb(151,146,228);
+    padding: 10px 10px;
+    border-radius: 50%;
  }
 
  #planning-card > button > a {
-    background-color: rgb(151,146,228);
-    padding: 10px 15px;
-    border-radius: 50%;
+    padding: inherit;
     font-size: 20px;
     color: black;
  }
@@ -335,13 +337,14 @@ section:nth-child(even) {
 
 .feature-card > button {
     margin: 20px;
+    background-color: rgb(151,146,228);
+    padding: 10px 40px;
+    border-radius: 25px;
 }
 
 .feature-card > button > a {
-    background-color: rgb(151,146,228);
     color: white;
-    padding: 10px 40px;
-    border-radius: 25px;
+    padding: inherit;
     letter-spacing: 5px;
     font-size: 16px;
     font-weight: 700;
@@ -407,12 +410,16 @@ section:nth-child(even) {
     line-height: 40px;
  }
 
- #about-profile > button > a {
+ #about-profile > button {
     background-color: rgb(151,146,228);
+    border-radius: 50px;
     padding: 10px 20px;
+ }
+
+ #about-profile > button > a {
+    padding: inherit;
     font-size: 16px;
     color: white;
-    border-radius: 50px;
  }
 
  #about-profile > button > a > i {
@@ -465,7 +472,7 @@ section:nth-child(even) {
 
  #sct-6-cont > button {
     display: block;
-     margin: 40px auto;
+    margin: 40px auto;
 
  }
 
