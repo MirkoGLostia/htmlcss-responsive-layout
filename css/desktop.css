@@ -15,7 +15,27 @@
         display: block;
     }
 
-    /* main: section 2 planning */
+    /* main */
+
+    /* section 1: jumbo */
+
+    #jumbo-cont {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #special-jumbo {
+        display: flex;
+    }
+
+
+
+
+    
+    
+    
+    /* section 2: planning */
     #planning-container {
         display: flex;
         width: 100%;
